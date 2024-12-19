@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick a Bouquet - Heli's Floral Haven</title>
+  <link rel="stylesheet" href="btn.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Heli's Floral Haven</h1>
+      <p>Bring joy and beauty to your life with our handpicked bouquets!</p>
+    </div>
+  </header>
+
+  <section class="bouquets">
+    <div class="container">
+      <h2>Pick Your Favorite Bouquet</h2>
+      <div class="bouquet-list">
+        <div class="bouquet-item">
+          <img src="img/flowe1.png" alt="Rose Bouquet">
+          <h3>PINK Bouquet</h3>
+          <p class="price">$50.00</p>
+          <label for="rose-quantity">Quantity:</label>
+          <input type="number" id="rose-quantity" name="rose-quantity" min="1" value="1">
+        </div>
+        
+        <div class="bouquet-item">
+          <img src="img/flower2.png" alt="Tulip Bouquet">
+          <h3>RED Bouquet</h3>
+          <p class="price">$40.00</p>
+          <label for="tulip-quantity">Quantity:</label>
+          <input type="number" id="tulip-quantity" name="tulip-quantity" min="1" value="1">
+        </div>
+
+        <div class="bouquet-item">
+          <img src="img/flowe1.png" alt="Lily Bouquet">
+          <h3>PINK Bouquet</h3>
+          <p class="price">$50.00</p>
+          <label for="lily-quantity">Quantity:</label>
+          <input type="number" id="lily-quantity" name="lily-quantity" min="1" value="1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="order-form">
+    <div class="container">
+      <h2>Order Your Bouquet</h2>
+      <form action="order.html" method="GET">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+     
+        <button type="submit">Place Order</button>
+        
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Heli's Floral Haven. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
