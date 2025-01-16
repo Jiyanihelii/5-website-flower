@@ -370,7 +370,7 @@ section{
         font-size: 20px;
         border-radius: 50%;
         cursor: pointer;
-        display: none;
+    
     }
     .navbar{
         position: absolute;
